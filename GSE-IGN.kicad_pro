@@ -431,7 +431,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "GSE-Ignition-module.kicad_pro",
+    "filename": "GSE-IGN.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -578,6 +578,10 @@
     [
       "63359c31-0cbc-4d0e-91b2-dabcf3dc05cf",
       "ルート"
+    ],
+    [
+      "dee383dc-be5e-4d49-a12f-7df187b5f7ac",
+      "RS232C"
     ]
   ],
   "text_variables": {}
