@@ -4214,12 +4214,6 @@
 		(uuid "cbac8864-43a9-490e-a837-1f3e224679f8")
 	)
 	(junction
-		(at 124.46 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d198f999-cebb-4886-8613-2d46bac75c35")
-	)
-	(junction
 		(at 78.74 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4494,6 +4488,16 @@
 			(type default)
 		)
 		(uuid "1ad1c1e4-5ff8-4f40-9c5d-ee10008b516d")
+	)
+	(wire
+		(pts
+			(xy 118.11 24.13) (xy 124.46 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eae586c-d650-4caf-adc7-fc7053041705")
 	)
 	(wire
 		(pts
@@ -4944,16 +4948,6 @@
 			(type default)
 		)
 		(uuid "9d80f6a4-cfbd-47bd-a1ad-95b9a17877ab")
-	)
-	(wire
-		(pts
-			(xy 118.11 24.13) (xy 124.46 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e05499f-d6c6-46b5-8f5f-369e8f086cea")
 	)
 	(wire
 		(pts
@@ -5565,7 +5559,7 @@
 	)
 	(rectangle
 		(start 148.59 13.97)
-		(end 284.48 88.9)
+		(end 283.21 88.9)
 		(stroke
 			(width 0.254)
 			(type dash)
@@ -9175,72 +9169,6 @@
 			(project "GSE-Ignition-module"
 				(path "/63359c31-0cbc-4d0e-91b2-dabcf3dc05cf"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 124.46 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c4db1ab3-76a0-45d8-b694-f11f8d74b392")
-		(property "Reference" "#FLG01"
-			(at 124.46 22.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 124.46 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 124.46 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c89287be-716c-4cb1-a189-aa081a5cce99")
-		)
-		(instances
-			(project ""
-				(path "/63359c31-0cbc-4d0e-91b2-dabcf3dc05cf"
-					(reference "#FLG01")
 					(unit 1)
 				)
 			)
