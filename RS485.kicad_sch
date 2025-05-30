@@ -907,7 +907,7 @@
 		(at 195.58 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "11a4d74c-df89-4f87-a932-fcfe28dab2bf")
+		(uuid "27338e24-b159-4a2c-afa6-83d4815f2176")
 	)
 	(junction
 		(at 105.41 92.71)
@@ -1021,16 +1021,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 85.09) (xy 195.58 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cad33cb-be0e-43cc-a075-d24b6a0a78cc")
-	)
-	(wire
-		(pts
 			(xy 195.58 102.87) (xy 189.23 102.87)
 		)
 		(stroke
@@ -1051,16 +1041,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 85.09) (xy 189.23 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3af90f0c-f2e2-432e-94f3-320b02c5e0cb")
-	)
-	(wire
-		(pts
 			(xy 120.65 95.25) (xy 127 95.25)
 		)
 		(stroke
@@ -1068,6 +1048,16 @@
 			(type default)
 		)
 		(uuid "40394a7e-12e0-431c-b283-216734c5a1d8")
+	)
+	(wire
+		(pts
+			(xy 195.58 92.71) (xy 195.58 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bd49a14-f152-4255-9526-91d8a17d85e2")
 	)
 	(wire
 		(pts
@@ -1088,16 +1078,6 @@
 			(type default)
 		)
 		(uuid "5c4946c8-3e17-473d-95b9-6f79d4090ab9")
-	)
-	(wire
-		(pts
-			(xy 195.58 92.71) (xy 195.58 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f88d3e5-7d0e-4633-8f1f-035993a147ca")
 	)
 	(wire
 		(pts
@@ -1161,6 +1141,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 85.09) (xy 204.47 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c06838c1-fee3-444a-89c0-8cdcbbdc823b")
+	)
+	(wire
+		(pts
 			(xy 93.98 90.17) (xy 127 90.17)
 		)
 		(stroke
@@ -1181,6 +1171,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 85.09) (xy 195.58 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec7bd7c6-6017-4bcf-85ca-7a63904bc4e0")
+	)
+	(wire
+		(pts
 			(xy 105.41 110.49) (xy 120.65 110.49)
 		)
 		(stroke
@@ -1191,7 +1191,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 85.09) (xy 195.58 85.09)
+			(xy 189.23 85.09) (xy 195.58 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1529,7 +1529,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 182.88 93.98 0)
 			(effects
 				(font
@@ -1564,6 +1564,10 @@
 		)
 		(instances
 			(project ""
+				(path "/63359c31-0cbc-4d0e-91b2-dabcf3dc05cf"
+					(reference "C2")
+					(unit 1)
+				)
 				(path "/63359c31-0cbc-4d0e-91b2-dabcf3dc05cf/ca82d653-0d7e-4727-8608-33c13d23e4b2"
 					(reference "C2")
 					(unit 1)
@@ -1573,13 +1577,12 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Small_Bridged")
-		(at 195.58 90.17 270)
+		(at 195.58 90.17 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "549a0058-44b5-4a17-bfd3-6acf523f64de")
 		(property "Reference" "JP2"
 			(at 196.85 88.8999 90)
@@ -1587,7 +1590,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "Jumper_2_Small_Bridged"
@@ -1596,10 +1599,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 195.58 90.17 0)
 			(effects
 				(font
